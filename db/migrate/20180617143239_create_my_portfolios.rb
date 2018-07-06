@@ -1,4 +1,4 @@
-class CreateMyPortfolios < ActiveRecord::Migration[5.1]
+class CreateMyPortfolios < ActiveRecord::Migration[5.2]
   def change
     create_table :my_portfolios do |t|
       t.string :title

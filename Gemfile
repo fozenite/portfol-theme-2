@@ -57,3 +57,4 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
 gem 'rohit_moza_view_tool', git: 'https://github.com/rohit-moza/rohit_moza_view_tool'
+gem 'petergate', '~> 2.0', '>= 2.0.1'

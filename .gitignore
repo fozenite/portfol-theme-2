@@ -18,5 +18,5 @@
 
 .byebug_history
 ./public/uploads
-./public/tmp
+./public/uploads/tmp
 .env

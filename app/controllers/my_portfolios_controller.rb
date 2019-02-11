@@ -39,6 +39,7 @@ class MyPortfoliosController < ApplicationController
   end
 
   def update
+    byebug
     respond_to do |format|
       if @portfolio_item.update(portfolio_params)
         format.html { redirect_to my_portfolios_path, notice: 'Record was successfully updated.' }

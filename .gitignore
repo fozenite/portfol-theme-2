@@ -18,5 +18,4 @@
 
 .byebug_history
 ./public/uploads
-./public/uploads/tmp
 .env

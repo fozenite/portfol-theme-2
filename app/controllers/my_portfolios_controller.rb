@@ -20,7 +20,6 @@ class MyPortfoliosController < ApplicationController
 
   def new
     @portfolio_item = MyPortfolio.new 
-    3.times { @portfolio_item.technologies.build }
   end
 
   def create
@@ -39,7 +38,6 @@ class MyPortfoliosController < ApplicationController
   end
 
   def update
-    byebug
     respond_to do |format|
       if @portfolio_item.update(portfolio_params)
         format.html { redirect_to my_portfolios_path, notice: 'Record was successfully updated.' }
@@ -68,7 +66,7 @@ class MyPortfoliosController < ApplicationController
                                          :body, 
                                          :main_image,
                                          :thumb_image,
-                                         technologies_attributes: [:name]
+                                         technologies_attributes: [:id, :name, :_destroy]
                                          )
   end
 

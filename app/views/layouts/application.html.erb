@@ -19,6 +19,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+          <%= video_tag(
+            'back-video.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'back-video-cover.png'
+            ) 
+          %>          
           <%= render "shared/application_nav" %>
 
 
@@ -26,6 +35,7 @@
 
           <%= render "shared/application_footer" %>
 
+          <%= alerts %>
           <%= source_helper("application") %>
     
         </div>

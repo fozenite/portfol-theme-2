@@ -10,6 +10,7 @@ require "action_mailer/railtie"
 require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
+require "dotenv/rails"
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -20,5 +21,6 @@ module Portfolio
   class Application < Rails::Application
     config.load_defaults 5.1
     config.generators.system_tests = nil
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end

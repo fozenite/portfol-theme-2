@@ -1,8 +1,14 @@
-<div class="blog-masthead">
-  <div class="container">
-    <nav class="nav blog-nav">
-      <%= nav_helper 'nav-link', 'span' %>
-      <%= login_helper 'nav-link' %>
-    </nav>
-  </div>
-</div>
+<header class="bg-dark blog-nav">
+  <nav class="container navbar navbar-expand-lg navbar-light nav navbar-dark">
+    <div class="collapse navbar-collapse" id="navbarToggler1">
+      <a class="navbar-brand text-white" href="#">Rohit Moza</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <%= nav_helper 'nav-link text-white', 'li' %>
+        <%= login_helper 'nav-link text-white' %>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</header>

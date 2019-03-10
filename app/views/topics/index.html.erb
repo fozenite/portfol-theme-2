@@ -1,7 +1,6 @@
 <div class="col-sm-8 blog-main">
-  <h1>Topics</h1>
-  
-  <%= render @topics %>
-
-
+  <h1>Topics <%= link_to 'Create New Topic', new_topic_path , class: 'btn btn-info', role: 'button' if logged_in?(:site_admin)%></h1>
+  <div class="list-group">
+    <%= render @topics %>
+  </div>
 </div><!-- /.blog-main -->

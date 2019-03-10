@@ -21,7 +21,7 @@ puts "1 Regular user created"
 topics = ["Ruby on Rails", "Front End", "HTML", "CSS", "Business", "Software", "Dev Skills", "Project Management", "Product Management", "JavaScript", "React", "Angular", "Vue", "Back End", "Design"]
 topics.each do |topic|
   Topic.create!(
-    title: "Topic #{topic}"
+    title: "#{topic}"
   )
 end
 

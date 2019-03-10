@@ -210,6 +210,7 @@ h6, .h6 {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover; 
+  opacity: 0.95;
 }
 
 .app-footer {
@@ -249,4 +250,13 @@ h6, .h6 {
 .skill {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+#createNewSkill{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home-screen-card {
+  padding: 40px;
 }

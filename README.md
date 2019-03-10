@@ -10,9 +10,11 @@ Versions, APIs, Frameworks
 - AWS s3 bucket integration
 
 Features
+- Permission levels implemented
 - Admin Create, edit and publish blogs which includes markups
 - Admin Create and edit portfolio items
-- Signed up users can comment on blog items live. Comments live synced via Action Cable
+- Signed up users can comment on blog items live. Comments live synced via Action Cable.
+- Guest users can view all pages but cannot edit or comment. 
 - Different Layouts for blogs, application and portfolios 
 
 Acknowledgements

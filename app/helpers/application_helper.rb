@@ -76,4 +76,13 @@ module ApplicationHelper
     js add_gritter(msg, :title => "Rohit Moza Portfolio", sticky: false)
   end
 
+  def about_me_content
+    ("<p>Full Stack Web Developer with proven solutions delivery and analytical abilities.<br/><br/>
+      Proficient in extracting client and business project requirements. <br/><br/>
+      Enthusiastic about documentation and tracking projects at every step of the software and product development process. <br/><br/> 
+      Highly adept in liaising with key stakeholders and team members to seamlessly execute and optimize solutions.<br/><br/> 
+      Committed to excellence and building aesthetically stunning user experiences.</p>").html_safe
+  end
+  
+
 end

@@ -1,6 +1,6 @@
 @import "bootstrap";
 @import "gritter";
-
+@import "font-awesome";
 /*
  * Globals
  */
@@ -230,4 +230,9 @@ body {
 
 .profile-img {
   border: 1px solid gray;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

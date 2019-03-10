@@ -15,5 +15,5 @@ Features
 - Signed up users can comment on blog items live. Comments live synced via Action Cable
 - Different Layouts for blogs, application and portfolios 
 
-Acknowledgments
+Acknowledgements
 - Site built by following this Udemy Rails 5 course: https://www.udemy.com/professional-rails-5-development-course/

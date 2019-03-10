@@ -1,10 +1,31 @@
-3.times do |topic|
+User.create!(
+  email: "rohit@rohitmoza.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Admin User",
+  roles: "site_admin"
+)
+
+puts "1 Admin user created"
+
+User.create!(
+  email: "moza.rohit@gmail.com",
+  password: "asdfasdf",
+  password_confirmation: "asdfasdf",
+  name: "Regular User"
+)
+
+puts "1 Regular user created"
+
+
+topics = ["Ruby on Rails", "Front End", "HTML", "CSS", "Business", "Software", "Dev Skills", "Project Management", "Product Management", "JavaScript", "React", "Angular", "Vue", "Back End", "Design"]
+topics.each do |topic|
   Topic.create!(
     title: "Topic #{topic}"
   )
 end
 
-puts "3 topics created"
+puts "#{topics.length} topics created"
 
 10.times do |blog|
   Blog.create!(
@@ -20,13 +41,14 @@ end
 
 puts "10 blogs created"
 
-5.times do |skill|
+skills = ["Ruby on Rails", "React", "JavaScript", "HTML/CSS/SASS", "SQL", "DevOps", "Automated Testing", "Angular JS v1", "Vue JS", "Node JS"]
+skills.each do |skill|
   Skill.create!(
-    title: "Rails #{skill}",
-    percent_utilized: 15
+    title: "#{skill}",
+    percent_utilized: 70
   )
 end
-puts "5 skills created"
+puts "#{skills.length} skills created"
 
 8.times do |portfolio_item|
   MyPortfolio.create!(

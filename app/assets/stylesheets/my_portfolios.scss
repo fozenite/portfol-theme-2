@@ -79,3 +79,12 @@ hr {
 .portfolio-container {
   padding-top: 30px;
 }
+
+.my-portfolio-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  a {
+    margin-bottom: 10px;
+  }
+}

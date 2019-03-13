@@ -240,6 +240,7 @@ h6, .h6 {
 
 .profile-img {
   border: 1px solid gray;
+  width: auto;
 }
 
 .card-block {
@@ -259,4 +260,54 @@ h6, .h6 {
 
 .home-screen-card {
   padding: 40px;
+}
+
+.banner-body-main h1{
+  margin-bottom: 40px;
+  font-family: 'Yatra One', cursive;
+  font-size: 1.5rem;
+}
+
+.cover-heading{
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.tech-items-img {
+  margin-bottom: 40px;
+}
+
+.cta-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.home-hero {
+  opacity: 0.9;
+}
+
+.social-links {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  a {
+    color: blue;
+  }
 }

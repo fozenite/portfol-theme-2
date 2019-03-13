@@ -1,9 +1,30 @@
-<div class="inner cover">
+<div class="inner cover home-hero">
   <h1 class="cover-heading">Welcome!</h1>
   <div class="card bg-dark home-screen-card">
-    <h1 class="lead">Full Stack Web Developer, who is dedicated to excellence. Aims to provide a magical and seamless web surfing experience.</h1>
-    <p class="lead">
-      <%= link_to "About", about_path, class: 'btn btn-lg btn-secondary' %>
-    </p>
+    <div class="lead banner-body-main">
+      <h1>Rohit Moza | Full Stack Web Developer</h1> 
+      <div class="tech-items-img">
+        <%= image_tag "tech/ruby-logo.png", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/rails-logo.svg", width: 100, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/js-logo.png", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/react-logo.png", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/angular-logo.png", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/vuejs-logo.png", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/html5-logo.svg", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+        <%= image_tag "tech/sass-logo.svg", width: 50, alt: "Ruby Logo", class: 'tech-item-img' %>
+      </div>
+      <h1>Dedicated to excellence. Aims to provide a magical and seamless web surfing experience.</h1>
+    </div>
+    <div class="cta-buttons">
+      <p class="lead">
+        <%= link_to "About", about_path, class: 'btn btn-lg btn-success' %>
+      </p>
+      <p class="lead">
+        <%= link_to "My Portfolio", my_portfolios_path, class: 'btn btn-lg btn-primary' %>
+      </p>
+      <p class="lead">
+        <%= link_to "Contact Me", contact_path, class: 'btn btn-lg btn-warning' %>
+      </p>
+    </div>
   </div>
 </div>

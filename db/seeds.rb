@@ -1,21 +1,21 @@
-User.create!(
-  email: "rohit@rohitmoza.com",
-  password: "asdfasdf",
-  password_confirmation: "asdfasdf",
-  name: "Admin User",
-  roles: "site_admin"
-)
+# User.create!(
+#   email: "rohit@rohitmoza.com",
+#   password: "asdfasdf",
+#   password_confirmation: "asdfasdf",
+#   name: "Admin User",
+#   roles: "site_admin"
+# )
 
-puts "1 Admin user created"
+# puts "1 Admin user created"
 
-User.create!(
-  email: "moza.rohit@gmail.com",
-  password: "asdfasdf",
-  password_confirmation: "asdfasdf",
-  name: "Regular User"
-)
+# User.create!(
+#   email: "moza.rohit@gmail.com",
+#   password: "asdfasdf",
+#   password_confirmation: "asdfasdf",
+#   name: "Regular User"
+# )
 
-puts "1 Regular user created"
+# puts "1 Regular user created"
 
 
 topics = ["Ruby on Rails", "Front End", "HTML", "CSS", "Business", "Software", "Dev Skills", "Project Management", "Product Management", "JavaScript", "React", "Angular", "Vue", "Back End", "Design"]
